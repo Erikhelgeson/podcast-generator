@@ -1,0 +1,81 @@
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/erikhelgeson/Developer/podcast-generator/src/generate_script.py': [Errno 2] No such file or directory
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/erikhelgeson/Developer/podcast-generator/src/generate_script.py': [Errno 2] No such file or directory
+  File "/Users/erikhelgeson/Developer/podcast-generator/src/generate_script.py", line 12
+    OPENAI_API_KEY = "os.environ.get("OPENAI_API_KEY")"                # Replace with your OpenAI API Key
+                                      ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/Users/erikhelgeson/Developer/podcast-generator/src/generate_script.py", line 6, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+--- Starting Daily Podcast Script & Audio Generator ---
+Connecting to secure email server...
+-> Processing: 'The Number of Student Loans in Default Is Bad and Likely to Get Worse'
+-> Processing: 'Trump-Xi Summit Kicks Off'
+-> Processing: 'Claudine Gay Is Back at Harvard'
+-> Processing: 'Trump and Xi keep things cordial. And, Netanyahu delivers a combative U.N. speech'
+-> Processing: 'J.P. Morgan Loses Fight to Overturn $4.25 Million Award to Advisor Fired Over Super Bowl Platter'
+-> Processing: 'Pentagon-Backed Venezuelan Oil Company Frustrates Chevron'
+-> Processing: '=?UTF-8?B?SG93IGRhdGEgY2VudGVyIGJhY2tsYXNoIGlzIHJlc2hhcGluZyBB?=
+ =?UTF-8?B?bWVyaWNhbiBwb2xpdGljcyDigJQgb25lIGNvbW11bml0eSBhdCBhIHRpbWUu?='
+-> Processing: 'The Doomers Who Shaped the AI Safety Freakout'
+-> Processing: '=?utf-8?B?Q29sbGVnZSBGb290YmFsbOKAmXMgTmV4dC1QbGF5IE1lbnRhbGl0eQ==?='
+-> Processing: 'What we know about the suspected U.K. terror plot. Plus, the Gulf remains in a costly limbo'
+-> Processing: 'Vanguard Ordered to Pay $950,000 for Tax-Related Reporting Errors'
+-> Processing: 'FAA Delays Boeing 737 MAX 10 Approval'
+-> Processing: 'Democrats Are Running on Fear'
+-> Processing: 'Trump administration weakens fuel efficiency standards. And, prosecutors reopen Cornell University fraternity rape case'
+-> Processing: 'Waverly Advisors Acquires $1.7 Billion Virginia Financial Advisor Firm'
+-> Processing: 'Hegseth Plans 20% Cut to Pentagon Senior Ranks'
+-> Processing: 'An English Mystery'
+-> Processing: 'U.S. forces leave Iraq after two decades. And, SCOTUS gives Trump more room on deportations'
+-> Processing: 'SEC Moves to Expand Access to Private Markets With Proposed Change to Accredited Investor Rule'
+-> Processing: 'Pilot-on-Pilot Stabbing Forces FlyDubai Emergency Landing'
+-> Processing: 'Exclusive Preview: Will Iran Escalate?'
+-> Processing: 'Voters to GOP: Prepare for Impact'
+-> Processing: 'Passengers recount chaos on flydubai flight. And, FBI hunts hackers who stole employee data'
+-> Processing: 'Concurrent Acquires Spire, a Financial Advisor Platform with $5.4 Billion in Assets'
+-> Processing: 'Surging Mortgage Rates Wreck Home-Buyer Playbook'
+-> Processing: 'Mamdani Tackles Antisemitism'
+-> Processing: 'Fidelity Sets $100 Million Asset Minimum for RIAs, Forcing Small Advisors to Move or Expand'
+-> Processing: 'FlyDubai Attacker Was Banned From Flying For Radical Views'
+-> Processing: 'A Fox News journalist was killed in Ukraine. Her parents are blaming the network'
+-> Processing: 'Record Diesel Prices Are Squeezing Truckers'
+-> Processing: '=?utf-8?B?RXhjbHVzaXZlIFByZXZpZXc6IENoaW5h4oCZcyBMb25nIFR3aWxpZ2h0?='
+-> Processing: 'Socialism Is the Thief of Dignity'
+-> Processing: 'SCOTUS to hear blockbuster climate change case. And, Brazil's presidential race heads to runoff'
+Fetching daily sports headlines...
+Note: Sports feed temporarily offline (Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?). AI will generate using general knowledge.
+Today's Economic Country Spotlight: Russia
+
+Drafting conversational script with OpenAI...
+Error generating script: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-sFDssKMc9WNg7xadEg47QPXG on tokens per min (TPM): Limit 30000, Requested 55738. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Failed to generate script.
+--- Starting Daily Podcast Script & Audio Generator ---
+Connecting to secure email server...
+No unread emails found.
+No articles to process. Make sure you have unread emails in your inbox!
+--- Starting Daily Podcast Script & Audio Generator ---
+Connecting to secure email server...
+-> Processing: '=?UTF-8?B?TlkgZ292ZXJub3IgYXBwb2ludHMgc3BlY2lhbCBwcm9zZWN1dG9y?=
+ =?UTF-8?B?IGluIENvcm5lbGwgZnJhdGVybml0eSByYXBlIGNhc2UuIEFuZCwgUmVuZWUg?=
+ =?UTF-8?B?R29vZOKAmXMgZmFtaWx5IHN1ZXMgb3ZlciBoZXIgZGVhdGggZHVyaW5nIGFu?=
+ =?UTF-8?B?IElDRSBvcGVyYXRpb24=?='
+Error fetching email: name 'body' is not defined
+No articles to process. Make sure you have unread emails in your inbox!
+--- Starting Daily Podcast Script & Audio Generator ---
+Connecting to secure email server...
+-> Processing: 'Fidelity Sets $100 Million Asset Minimum for RIAs, Forcing Small Advisors to Move or Expand'
+-> Processing: 'FlyDubai Attacker Was Banned From Flying For Radical Views'
+-> Processing: 'A Fox News journalist was killed in Ukraine. Her parents are blaming the network'
+-> Processing: 'Record Diesel Prices Are Squeezing Truckers'
+-> Processing: '=?utf-8?B?RXhjbHVzaXZlIFByZXZpZXc6IENoaW5h4oCZcyBMb25nIFR3aWxpZ2h0?='
+-> Processing: 'Socialism Is the Thief of Dignity'
+-> Processing: 'SCOTUS to hear blockbuster climate change case. And, Brazil's presidential race heads to runoff'
+Fetching daily sports headlines...
+Today's Economic Country Spotlight: Russia
+
+Drafting conversational script with OpenAI...
+Saved text backup to: /Users/erikhelgeson/Documents/personal/Daily podcasts/podcast_script_2026_10_05.txt
+Generating AI voices for Alex and Taylor (this may take 2-3 minutes)...
+Success! Spoken audio saved directly to iCloud!
